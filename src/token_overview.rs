@@ -78,6 +78,12 @@ pub struct TokenOverviewData {
     pub volume_6h: f64,
     #[serde(rename = "v24hUSD")]
     pub volume_24h: f64,
+    #[serde(rename = "holdersCount")]
+    pub holders_count: i64,
+    #[serde(rename = "sumUSDAmountTop10Holders")]
+    pub sum_usd_amount_top_10_holders: f64,
+    #[serde(rename = "sumTop10HoldersPercent")]
+    
 
 
 

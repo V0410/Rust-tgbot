@@ -8,5 +8,10 @@ pub struct TokenDenonimation {
     pub supply: Option<f64>,
     #[serde(rename = "circulatingSupply")]
     pub circulating_supply: Option<f64>,
+    pub price: Option<f64>,
+    pub volume_24h: Option<f64>,
+    pub volume_7d: Option<f64>,
+    pub volume_30d: Option<f64>,
+    pub volume_60d: Option<f64>,
     
 }

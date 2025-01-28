@@ -17,6 +17,6 @@ pub struct TokenSocial {
     #[serde(rename = "socialTelegram")]
     pub social_telegram: Option<String>,
     #[serde(rename = "socialTwitter")]
-    pub social_twitter: Option<String>,
+    pub social_twitter: Option<String>,    
       
 }
