@@ -6,11 +6,6 @@ pub struct TokenTopHolders {
     pub content: Vec<HolderInfo>,
     #[serde(rename = "totalElements")]
     pub holders_count: i32,
-    #[serde(rename = "page")]
-    pub page: i32,
-    #[serde(rename = "size")]
-    pub size: i32,
-    #[serde(rename = "totalPages")]
 }
 
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]
@@ -27,5 +22,4 @@ pub struct HolderInfo {
     pub percentage: f64,
     #[serde(rename = "objectsCount")]
     pub objects_count: i32,
-    // Add more fields if needed
 }
